@@ -8,10 +8,8 @@ int main()
   cout<<"size of float = "<<sizeof(float)<<endl ;
   
   int firstnumber , secondnumber , multiplication_of_twonumbers ;
-  cout<<"enter two number and then click on enter and then use the sign of * " ;
-  cin>>firstnumber,secondnumber ;
+  cout<<"enter two number: " ;
+  cin>> firstnumber>>secondnumber ;
   multiplication_of_twonumbers = firstnumber * secondnumber ;
-  cout<<firstnumber<< " * "<< secondnumber<< "=" << multiplication_of_twonumbers ;
-  
-}
-  
+  cout<< firstnumber<< " * "<< secondnumber<< " = " << multiplication_of_twonumbers ;
+}  
